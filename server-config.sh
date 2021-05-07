@@ -9,7 +9,7 @@ echo "running configuration..."
 apt update
 apt upgrade -y
 apt install openssh-server
-ip a
+ip addr
 whoami
 
 adduser --disabled-password --gecos "" $name
