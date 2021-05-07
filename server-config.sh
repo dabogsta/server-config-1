@@ -15,3 +15,4 @@ whoami
 adduser --disabled-password --gecos "" $name
 
 cat /etc/passwd
+apt install nginx
